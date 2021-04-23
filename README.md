@@ -13,10 +13,11 @@ github.com/jmhuus/OpticNerve.
 
 ### Example:
 
->```binary_data = encode_data_to_hamming_binary_array("hello world")
->   import pprint; pprint.pprint(binary_data)
->   print(decode_hamming_binary(binary_data))
->```
+```
+binary_data = encode_data_to_hamming_binary_array("hello world")
+import pprint; pprint.pprint(binary_data)
+print(decode_hamming_binary(binary_data))
+```
 
 ### Todo:
 * Implement feature for detecting 2-bit error - without correction.
